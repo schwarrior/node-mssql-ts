@@ -1,16 +1,14 @@
 {
 	"compilerOptions": {
-		"allowJs": true,
+		"allowJs": true,		
 		"emitDeclarationOnly": true,
 		"declaration": true,
-		"target": "es2022",
-		"moduleResolution": "node"		 
 	},
 	"include": [
 		"**/*.js"
 	],
 	"exclude": [
-		"**/*.ts"
+		"test",
+		"node_modules",
 	]
-
 }
